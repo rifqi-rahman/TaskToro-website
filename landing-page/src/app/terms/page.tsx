@@ -32,16 +32,16 @@ export default function TermsPage() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold mb-4 text-primary">Introduction</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Welcome to TaskToro, a gamified productivity app designed to enhance personal growth among young people. These Terms of Service ("Terms") govern your use of the TaskToro app and services, and by using our app, you agree to be bound by these Terms.
+                Welcome to TaskToro, a gamified productivity app designed to enhance personal growth among young people. These Terms of Service (&ldquo;Terms&rdquo;) govern your use of the TaskToro app and services, and by using our app, you agree to be bound by these Terms.
               </p>
             </section>
 
             <section className="mb-8">
               <h2 className="text-2xl font-semibold mb-4 text-primary">Definitions</h2>
               <ul className="space-y-2 text-muted-foreground">
-                <li><strong>"App"</strong> means the TaskToro mobile application and any related services.</li>
-                <li><strong>"User"</strong> means an individual who uses the App.</li>
-                <li><strong>"We"</strong> or <strong>"Us"</strong> means the TaskToro team.</li>
+                <li><strong>&ldquo;App&rdquo;</strong> means the TaskToro mobile application and any related services.</li>
+                <li><strong>&ldquo;User&rdquo;</strong> means an individual who uses the App.</li>
+                <li><strong>&ldquo;We&rdquo;</strong> or <strong>&ldquo;Us&rdquo;</strong> means the TaskToro team.</li>
               </ul>
             </section>
 
@@ -100,7 +100,7 @@ export default function TermsPage() {
               <div className="space-y-4 text-muted-foreground">
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">1. No Warranty</h3>
-                  <p>The App is provided "as is" without warranty of any kind.</p>
+                  <p>The App is provided &ldquo;as is&rdquo; without warranty of any kind.</p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">2. Limitation of Liability</h3>

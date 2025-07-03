@@ -1,6 +1,4 @@
 // Rahmanic Blog System - Modern, Animated, Extensible
-import Image from 'next/image';
-import Link from 'next/link';
 import BlogPostCard from './BlogPostCard';
 // Blog posts data (add new posts here)
 const posts = [

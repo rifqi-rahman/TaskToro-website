@@ -6,16 +6,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect, useRef } from 'react';
 import Tilt from 'react-parallax-tilt';
-import { ScrollMenu, VisibilityContext } from 'react-horizontal-scrolling-menu';
-import 'react-horizontal-scrolling-menu/dist/styles.css';
 
 // Images from /public/
 const logo = "/TaskToro icon web.png";
-const screenshots = [
-  "/screenshot-1.png",
-  "/screenshot-2.png",
-  "/screenshot-3.png",
-];
 
 // Testimonials data
 const testimonials = [
@@ -40,25 +33,6 @@ const testimonials = [
 ];
 
 // FAQ data
-const faqs = [
-  {
-    q: "Do I need an account to use TaskToro?",
-    a: "No account required! Your data stays on your device for privacy and convenience.",
-  },
-  {
-    q: "Does TaskToro work offline?",
-    a: "Yes, all features work offline so you can stay productive anywhere.",
-  },
-  {
-    q: "How does gamification help me?",
-    a: "Earn points, unlock achievements, and level up as you complete tasks and build habits!",
-  },
-  {
-    q: "Can I customize the app?",
-    a: "Choose light or dark mode, set your Pomodoro preferences, and organize your goals your way.",
-  },
-];
-
 // Feature data: each with a title, long description, and matching icon
 const features = [
   {
@@ -83,7 +57,7 @@ const features = [
     title: "Achieve Your Goals",
     description: (
       <>
-        Set meaningful goals, define clear milestones, and track your progress with beautiful stats and visualizations. Whether it's work, study, or personal growth, TaskToro helps you turn ambitions into achievements—step by step.
+        Set meaningful goals, define clear milestones, and track your progress with beautiful stats and visualizations. Whether it&apos;s work, study, or personal growth, TaskToro helps you turn ambitions into achievements—step by step.
       </>
     ),
     icon: "/scope.svg", // Scope/target icon
@@ -92,7 +66,7 @@ const features = [
     title: "Level Up Your Life",
     description: (
       <>
-        Grow in every area—Health, Wealth, Social, Intelligence, Mental, and Spiritual. Earn points, unlock achievements, and see your progress across all pillars of greatness. With TaskToro, you're always in pursuit of your best self.
+        Grow in every area—Health, Wealth, Social, Intelligence, Mental, and Spiritual. Earn points, unlock achievements, and see your progress across all pillars of greatness. With TaskToro, you&apos;re always in pursuit of your best self.
       </>
     ),
     icon: "/crown.fill.svg", // Crown icon
@@ -121,7 +95,7 @@ const blogPosts = [
     image: "/crown.fill.svg",
   },
   {
-    title: "🚀 Dev Notes: What's Next?",
+    title: "🚀 Dev Notes: What&apos;s Next?",
     date: "2024-06-10",
     excerpt: "A sneak peek at upcoming features and improvements for TaskToro.",
     image: "/scope.svg",
@@ -211,7 +185,7 @@ export default function TaskToroPage() {
                   <svg key={idx} className={`w-5 h-5 ${idx < t.stars ? 'text-yellow-400' : 'text-gray-300'}`} fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.967a1 1 0 00.95.69h4.175c.969 0 1.371 1.24.588 1.81l-3.38 2.455a1 1 0 00-.364 1.118l1.287 3.966c.3.922-.755 1.688-1.54 1.118l-3.38-2.455a1 1 0 00-1.175 0l-3.38 2.455c-.784.57-1.838-.196-1.54-1.118l1.287-3.966a1 1 0 00-.364-1.118L2.05 9.394c-.783-.57-.38-1.81.588-1.81h4.175a1 1 0 00.95-.69l1.286-3.967z" /></svg>
                 ))}
               </div>
-              <span className="italic text-foreground/90 mb-4">"{t.text}"</span>
+              <span className="italic text-foreground/90 mb-4">&ldquo;{t.text}&rdquo;</span>
               <span className="font-semibold text-primary">{t.name}</span>
             </div>
           ))}
@@ -272,7 +246,7 @@ function AutoScrollingCarousel({ images }: { images: string[] }) {
   useEffect(() => {
     const el = scrollRef.current;
     if (!el) return;
-    let scrollAmount = 1;
+    const scrollAmount = 1;
     let frame: number;
     function scrollStep() {
       if (!el) return;
