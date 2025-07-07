@@ -1,5 +1,6 @@
 'use client';
 import { useEffect } from 'react';
+import Link from 'next/link';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -15,6 +16,19 @@ export default function PrivacyPage() {
   return (
     <div className="bg-background text-foreground min-h-screen py-16 px-4">
       <div className="max-w-4xl mx-auto">
+        {/* Back Button */}
+        <div className="mb-8" data-aos="fade-up">
+          <Link 
+            href="/" 
+            className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors font-medium"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            </svg>
+            Back to Home
+          </Link>
+        </div>
+
         {/* Header */}
         <div className="text-center mb-12" data-aos="fade-up">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
@@ -118,8 +132,19 @@ export default function PrivacyPage() {
               </p>
             </section>
 
+            <section className="mb-8">
+              <h2 className="text-2xl font-semibold mb-4 text-primary">8. Terms of Use</h2>
+              <p className="text-muted-foreground">
+                By using TaskToro, you also agree to our{' '}
+                <a href="https://tasktoro.com/terms" className="text-primary hover:underline font-semibold">
+                  Terms of Service (EULA)
+                </a>
+                . Please review these terms carefully as they govern your use of the app.
+              </p>
+            </section>
+
             <section className="mb-0">
-              <h2 className="text-2xl font-semibold mb-4 text-primary">8. Contact Us</h2>
+              <h2 className="text-2xl font-semibold mb-4 text-primary">9. Contact Us</h2>
               <p className="text-muted-foreground">
                 If you have any questions about this Privacy Policy, please contact us at:{' '}
                 <br />

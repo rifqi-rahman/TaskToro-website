@@ -1,5 +1,6 @@
 'use client';
 import { useEffect } from 'react';
+import Link from 'next/link';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -15,13 +16,26 @@ export default function TermsPage() {
   return (
     <div className="bg-background text-foreground min-h-screen py-16 px-4">
       <div className="max-w-4xl mx-auto">
+        {/* Back Button */}
+        <div className="mb-8" data-aos="fade-up">
+          <Link 
+            href="/" 
+            className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors font-medium"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            </svg>
+            Back to Home
+          </Link>
+        </div>
+
         {/* Header */}
         <div className="text-center mb-12" data-aos="fade-up">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
             Terms of Service
           </h1>
           <p className="text-lg text-muted-foreground">
-            Last updated: January 2025
+            Last updated: July 2025
           </p>
         </div>
 
@@ -34,6 +48,26 @@ export default function TermsPage() {
               <p className="text-muted-foreground leading-relaxed">
                 Welcome to TaskToro, a gamified productivity app designed to enhance personal growth among young people. These Terms of Service (&ldquo;Terms&rdquo;) govern your use of the TaskToro app and services, and by using our app, you agree to be bound by these Terms.
               </p>
+            </section>
+
+            <section className="mb-8">
+              <h2 className="text-2xl font-semibold mb-4 text-primary">End User License Agreement (EULA)</h2>
+              <div className="bg-blue-50 dark:bg-blue-900/20 p-6 rounded-lg border border-blue-200 dark:border-blue-800">
+                <p className="text-muted-foreground leading-relaxed mb-4">
+                  TaskToro is licensed to you subject to the terms and conditions of Apple's Standard End User License Agreement (EULA), which applies to all apps distributed through the Apple App Store.
+                </p>
+                <p className="text-muted-foreground leading-relaxed">
+                  <strong>Apple Standard EULA:</strong>{' '}
+                  <a 
+                    href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline font-medium"
+                  >
+                    https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+                  </a>
+                </p>
+              </div>
             </section>
 
             <section className="mb-8">
