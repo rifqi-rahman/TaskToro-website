@@ -99,7 +99,7 @@ export default function PrivacyPage() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold mb-4 text-primary">5. Data Deletion</h2>
               <ul className="space-y-2 text-muted-foreground ml-4">
-                <li>You can delete your data by using the &ldquo;Reset All Progress&rdquo; option in the app settings.</li>
+                <li>You can delete your data by using the &ldquo;Delete My Data&rdquo; option in the app settings.</li>
                 <li>Deleting the app will also remove all locally stored data.</li>
               </ul>
             </section>
@@ -107,7 +107,7 @@ export default function PrivacyPage() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold mb-4 text-primary">6. Children&apos;s Privacy</h2>
               <p className="text-muted-foreground">
-                TaskToro is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13.
+                TaskToro is not intended for children under the age of 4. We do not knowingly collect personal information from children under 4.
               </p>
             </section>
 

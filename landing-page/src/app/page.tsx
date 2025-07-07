@@ -126,11 +126,23 @@ export default function TaskToroPage() {
         </motion.div>
         <h1 className="text-5xl font-bold tracking-tight text-primary drop-shadow">Level Up Your Productivity</h1>
         <p className="text-lg text-foreground/80 max-w-xl">TaskToro is your friendly, gamified productivity companion. Solo levelling your day, one checkmark at a time.</p>
-        {/* App Store CTA - Hero */}
-        <a href="#appstore" className="mt-6 flex items-center gap-4 px-8 py-4 rounded-2xl bg-primary text-white font-bold text-xl shadow-card hover:bg-primary/90 transition w-fit mx-auto">
-          <img src="/AppStoreIcon.png" alt="App Store" className="w-8 h-8" />
-          <span>Download on the App Store</span>
-        </a>
+        {/* App Store CTA & Support - Hero */}
+        <div className="mt-6 flex flex-col sm:flex-row gap-4 items-center">
+          <a href="#appstore" className="hover:opacity-90 transition">
+            <img src="/AppStore - Banner.svg" alt="Download on the App Store" className="h-12" />
+          </a>
+          <a 
+            href="https://github.com/rifqi-rahman/TaskToro-website/discussions" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="px-6 py-3 rounded-2xl bg-white dark:bg-[#18181b] text-primary border-2 border-primary font-semibold shadow-card hover:bg-primary hover:text-white transition-colors flex items-center gap-2"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+            </svg>
+            Support
+          </a>
+        </div>
       </section>
 
       {/* Features Section - Alternating Icon/Description, Card with Tilt Effect */}
@@ -229,7 +241,7 @@ export default function TaskToroPage() {
       {/* Footer */}
       <footer className="w-full max-w-3xl py-8 text-center text-foreground/60 text-sm flex flex-col gap-2 items-center mt-8">
         <div>
-          Questions or feedback? <a href="mailto:rifqi.efforts@gmail.com" className="text-primary underline">rifqi.efforts@gmail.com</a>
+          Questions or feedback? <a href="https://github.com/rifqi-rahman/TaskToro-website/discussions" target="_blank" rel="noopener noreferrer" className="text-primary underline">Get Support</a>
         </div>
         <div>
           By using TaskToro, you agree to our <Link href="/terms" className="underline hover:text-primary transition">Terms of Service</Link> and <Link href="/privacy" className="underline hover:text-primary transition">Privacy Policy</Link>.
