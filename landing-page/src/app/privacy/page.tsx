@@ -35,7 +35,7 @@ export default function PrivacyPage() {
             Privacy Policy
           </h1>
           <p className="text-lg text-muted-foreground">
-            Last updated: January 2025
+            Last updated: July 2025
           </p>
         </div>
 
@@ -121,7 +121,7 @@ export default function PrivacyPage() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold mb-4 text-primary">6. Children&apos;s Privacy</h2>
               <p className="text-muted-foreground">
-                TaskToro is not intended for children under the age of 4. We do not knowingly collect personal information from children under 4.
+                As we said before, we DO NOT collect any data. TaskToro is not intended for children under the age of 4. Parents and guardians are encouraged to monitor their children's use of the app.
               </p>
             </section>
 

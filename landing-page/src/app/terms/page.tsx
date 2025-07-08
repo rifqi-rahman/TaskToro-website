@@ -84,11 +84,11 @@ export default function TermsPage() {
               <div className="space-y-4 text-muted-foreground">
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">1. Eligibility</h3>
-                  <p>You must be at least 13 years old to use the App.</p>
+                  <p>There is no limitation on who can use the App, but We think children must be accompanied by a parent or guardian.</p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">2. Account Creation</h3>
-                  <p>You may create an account to use the App. You are responsible for maintaining the confidentiality of your account credentials.</p>
+                  <p>You will create a profile for your use of the App.</p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">3. Prohibited Use</h3>
@@ -116,15 +116,15 @@ export default function TermsPage() {
               <div className="space-y-4 text-muted-foreground">
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">1. Data Collection</h3>
-                  <p>We collect data to improve the App and provide services to you.</p>
+                  <p>We DO NOT collect any data, including personal information. All data is stored locally on your device.</p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">2. Data Storage</h3>
-                  <p>We store data in accordance with applicable laws and regulations.</p>
+                  <p>The app uses your inputted data for displaying the information regarding the features.</p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">3. Data Protection</h3>
-                  <p>We take reasonable measures to protect your data from unauthorized access.</p>
+                  <p>Because there are no servers involved besides the App Store, there is no risk of data breaches unless you share your device with unauthorized users.</p>
                 </div>
               </div>
             </section>
@@ -166,7 +166,7 @@ export default function TermsPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">2. Notice</h3>
-                  <p>We will provide notice of changes to these Terms through the App or by email.</p>
+                  <p>We will provide notice of changes to these Terms through the Discussion Forum or official TaskToro website.</p>
                 </div>
               </div>
             </section>
