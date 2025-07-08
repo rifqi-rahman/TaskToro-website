@@ -54,7 +54,7 @@ export default function TermsPage() {
               <h2 className="text-2xl font-semibold mb-4 text-primary">End User License Agreement (EULA)</h2>
               <div className="bg-blue-50 dark:bg-blue-900/20 p-6 rounded-lg border border-blue-200 dark:border-blue-800">
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  TaskToro is licensed to you subject to the terms and conditions of Apple's Standard End User License Agreement (EULA), which applies to all apps distributed through the Apple App Store.
+                  TaskToro is licensed to you subject to the terms and conditions of Apple&apos;s Standard End User License Agreement (EULA), which applies to all apps distributed through the Apple App Store.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
                   <strong>Apple Standard EULA:</strong>{' '}
