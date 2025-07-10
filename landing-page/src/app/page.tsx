@@ -128,7 +128,7 @@ export default function TaskToroPage() {
         <p className="text-lg text-foreground/80 max-w-xl">TaskToro is your friendly, gamified productivity companion. Solo levelling your day, one checkmark at a time.</p>
         {/* App Store CTA & Support - Hero */}
         <div className="mt-6 flex flex-col sm:flex-row gap-4 items-center">
-          <a href="#appstore" className="hover:opacity-90 transition">
+          <a href="https://apps.apple.com/id/app/tasktoro/id6748252931" className="hover:opacity-90 transition">
             <img src="/AppStore - Banner.svg" alt="Download on the App Store" className="h-12" />
           </a>
           <a 
@@ -233,7 +233,7 @@ export default function TaskToroPage() {
 
       {/* App Store CTA with Banner - Footer */}
       <section className="w-full flex flex-col items-center py-12">
-        <a href="#appstore" className="flex items-center justify-center gap-4 px-8 py-4 rounded-2xl bg-white dark:bg-[#18181b] shadow-card border border-black/10 dark:border-white/10 hover:shadow-2xl transition w-fit mx-auto">
+        <a href="https://apps.apple.com/id/app/tasktoro/id6748252931" className="flex items-center justify-center gap-4 px-8 py-4 rounded-2xl bg-white dark:bg-[#18181b] shadow-card border border-black/10 dark:border-white/10 hover:shadow-2xl transition w-fit mx-auto">
           <img src="/AppStore - Banner.svg" alt="Download on the App Store" className="h-10" />
         </a>
       </section>
